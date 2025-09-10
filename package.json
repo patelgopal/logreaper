@@ -53,6 +53,7 @@
     "expect": "~1.13.4",
     "extract-text-webpack-plugin": "~1.0.1",
     "file-loader": "~0.8.5",
+    "forever": "^4.0.3",
     "gulp": "~3.9.0",
     "gulp-coffee": "~2.3.1",
     "gulp-istanbul": "~0.10.3",

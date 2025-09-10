@@ -1,6 +1,7 @@
 import { Component, PropTypes } from "react";
 
-export default class AppBlock extends Component {
+//export default class AppBlock extends Component {
+class AppBlock extends Component {
     render() {
         if (this.props.render == false) return null;
         const {title, small} = this.props;
