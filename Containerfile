@@ -1,5 +1,5 @@
-# Use Node 12
-FROM node:12-alpine
+# Use Node 16
+FROM node:16-alpine
 
 # Set working directory
 WORKDIR /home/logreaper
@@ -18,7 +18,7 @@ COPY .babelrc ./
 
 # Install dependencies
 RUN npm install
-RUN apk add --no-cache netcat-openbsd
+#RUN apk add --no-cache netcat-openbsd
 
 # hack
 COPY node_modules/babel-core/lib/transformation/file/options/option-manager.js ./node_modules/babel-core/lib/transformation/file/options/option-manager.js
